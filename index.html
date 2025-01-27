@@ -18,20 +18,24 @@
   <meta property="og:url" content="https://alejandro-anchundia.github.io/cv-html/">
   <!--Favicon-->
   <link type="image/png" sizes="32x32" rel="icon" href="favicon/icons8-cv-32.png" >
+  <!--CSS-->
+  <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-   <header>
-    <h1>Alejandro Anchundia</h1>
-    <h2>Tecnologo Superior en Desarrollo de Software</h2>
+   <header class="header">
+
+      <h1>Alejandro Anchundia</h1>
+      <h2>Tecnologo Superior en Desarrollo de Software</h2>
+
+
     <div class="contact-info">
       <address>
-        Brasilia del toachi <br>
+        Brasilia del toachi, <br>
         Santo domingo de los tsachilas <br>
-        <p>+56 (0) 2 34 56 78</p>
-        <p>no.telefono@gmail.com</p>
-
+        +56 (0) 2 34 56 78 <br>
+        no.telefono@gmail.com
       </address>
     </div>
       </header>
@@ -41,15 +45,24 @@
 
       <section class="skill">
         <h3>Habilidades</h3>
-        <p>HTML, CSS, JavaSvript, WORPRESS, PHP, SQL, GIT</p>
+        <div class="skill-content">
+          <ul class="skill-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>WordPress</li>
+            <li>PHP</li>
+            <li>SQL</li>
+            <li>GIT</li>
+          </ul>
+        </div>
       </section>
 
       <section class="education">
         <h3>Educación</h3>
         <h4>Instituto Superior Tecnologico Limon, Limon indanza-Ecuador</h4>
         <p>junion 2020 - Octubre 2023</p>
-        <p>Tecnologo Superior en Desarrollo de Software</p>
-      </section>
+        <p>Tecnólogo Superior en Desarrollo de Software</p>
 
       <section class="experience">
         <div class="experience-header">
@@ -57,7 +70,7 @@
           <div class="experience-header-content">
             <h3>Farmacia Santa Ana - limon indanza</h3>
             <p>Enero 2023 - Enero 2024</p>
-            <ul>
+            <ul class="experience-list">
               <li>Atención a clientes</li>
               <li>Venta de productos</li>
               <li>Control de inventario</li>
@@ -69,7 +82,7 @@
           <div class="experience-header-content">
             <h3>DVSYSTEM - Limon indanza</h3>
             <p>Enero 2023 - Enero 2024</p>
-            <ul>
+            <ul class="experience-list">
               <li>Gestión de proyectos</li>
               <li>Control de proyectos</li>
               <li>Gestión de recursos</li>
@@ -87,6 +100,7 @@
 
           <a href="https://www.linkedin.com/in/alejandro-anchundia/">Linkedin</a>
           <a href="https://github.com/anchundiatech">Github</a>
+          <a href="https://www.instagram.com/anchundia.tech/">Instagram</a>
      </section>
 
 
