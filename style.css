@@ -1,0 +1,152 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 960px;
+  margin: 0 auto;
+  background: radial-gradient(circle at 50% 50%, #f1f1f1 0%, #ffffff 100%);
+}
+
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.header h2 {
+  font-size: 15px;
+  padding: 10px;
+}
+
+.contact-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.contact-info address, .contact-info p {
+  text-align: left;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.skill {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.skill ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.skill li {
+  font-size: 15px;
+}
+
+.skill-content, .skill-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.education {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.education h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.education h4 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.education p {
+  text-align: center;
+  font-size: 15px;
+}
+
+.experience {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.experience h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.experience-header-content p {
+  text-align: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.experience-header-content ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-header-content li {
+  font-size: 15px;
+}
+
+.experience-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.redes {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.redes h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.redes a {
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
